@@ -55,3 +55,5 @@ body {
     75% { height: 100%;}
     100% { height: 0%;}
   }
+
+/* https://www.youtube.com/watch?v=gttmqvZ4kYc transition code for fade-in effect taken from the above video to fit into our application */ 
