@@ -125,7 +125,7 @@
     } 
     if (prediction[2].probability > 0.95){
       result = '👍';
-      if(array[array.length - 1]!='thumbs up' || array[array.length - 1]!='explosion') array.push('fist bump');
+      if(array[array.length - 1]!='thumbs up' || array[array.length - 1]!='explosion') array.push('thumbs up');
     } 
     if (prediction[3].probability > 0.95){
       result = ' ';
@@ -144,7 +144,7 @@
       }
     }
     console.log("FINAL: "+finalArray);
-    let secret_handshake = "self fist bump"; //"wave,high five,wave,fist bump";
+    let secret_handshake = "self fist bump,high five,thumbs up"; //"wave,high five,wave,fist bump";
     console.log("RESULT: "+console.log(secret_handshake.normalize() === finalArray.toString().normalize()));
     secret_status_result = secret_handshake.normalize() === finalArray.toString().normalize();
     
