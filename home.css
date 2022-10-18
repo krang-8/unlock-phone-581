@@ -9,8 +9,9 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    width:1440px;
-    height:2959px;
+    width:100%;
+    height:100%;
+    object-fit: contain;
   }
   .loader-wrapper {
     width: 100%;
